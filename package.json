@@ -1,0 +1,49 @@
+{
+  "name": "react-md-formutil",
+  "version": "0.0.1",
+  "description": "Happy to use react-formutil in the project based on react-bootstrap ^_^",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "BABEL_ENV=production ./node_modules/.bin/babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://qiqiboy@github.com/qiqiboy/react-md-formutil.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-formutil",
+    "react-md"
+  ],
+  "author": "qiqiboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiqiboy/react-md-formutil/issues"
+  },
+  "babel": {
+    "presets": ["react-app"],
+    "plugins": ["transform-decorators-legacy"]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "homepage": "https://github.com/qiqiboy/react-md-formutil#readme",
+  "peerDependencies": {
+    "react": ">15.0.0",
+    "prop-types": ">15.0.0",
+    "antd": ">1.0.0",
+    "react-formutil": ">0.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.1.1"
+  }
+}
