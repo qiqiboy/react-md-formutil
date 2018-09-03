@@ -4,7 +4,7 @@
 
 Happy to use react-formutil in the project based on `react-md` ^\_^
 
-在 [react-md](https://github.com/mui-org/react-md) 项目，结合[react-formutil](https://github.com/qiqiboy/react-formutil) 来快速构建表单。
+在 [react-md](https://github.com/mlaursen/react-md) 项目，结合[react-formutil](https://github.com/qiqiboy/react-formutil) 来快速构建表单。
 
 > **如果你在使用其他 react 组件库，可以查阅：**
 >
