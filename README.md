@@ -6,38 +6,36 @@ Happy to use react-formutil in the project based on `react-md` ^\_^
 
 在 [react-md](https://github.com/mui-org/react-md) 项目，结合[react-formutil](https://github.com/qiqiboy/react-formutil) 来快速构建表单。
 
+> **如果你在使用其他react-组件库，可以查阅：**
+> - ant-design [`react-antd-formutil`](https://github.com/qiqiboy/react-antd-formutil) [![npm](https://img.shields.io/npm/v/react-antd-formutil.svg?style=flat)](https://npm.im/react-antd-formutil)
+> -  Material-UI [`react-material-formutil`](https://github.com/qiqiboy/react-material-formutil) [![npm](https://img.shields.io/npm/v/react-material-formutil.svg?style=flat)](https://npm.im/react-material-formutil)
+> -  react-bootstrap [`react-bootstrap-formutil`](https://github.com/qiqiboy/react-bootstrap-formutil) [![npm](https://img.shields.io/npm/v/react-bootstrap-formutil.svg?style=flat)](https://npm.im/react-bootstrap-formutil)
+
+
 <!-- vim-markdown-toc GFM -->
 
 -   [安装 Installation](#安装-installation)
 -   [使用 Usage](#使用-usage)
     -   [`<FormItem />`](#formitem-)
-        -   [`component`](#component)
         -   [`name`](#name)
         -   [`$defaultValue`](#defaultvalue)
         -   [`$validators`](#validators)
-        -   [`controlProps`](#controlprops)
-        -   [`label`](#label)
-        -   [`helperText`](#helpertext)
         -   [`$parser`](#parser)
         -   [`$formatter`](#formatter)
         -   [`checked` `unchecked`](#checked-unchecked)
         -   [`validMessage`](#validmessage)
         -   [`valuePropName` `changePropName` `focusPropName` `blurPropName`](#valuepropname-changepropname-focuspropname-blurpropname)
     -   [`支持的组件`](#支持的组件)
+        -   [`Autocomplete`](#autocomplete)
         -   [`TextField`](#textfield)
-        -   [`Select`](#select)
-        -   [`NativeSelect`](#nativeselect)
-        -   [`Input`](#input)
-        -   [`Checkbox`](#checkbox)
-        -   [`Radio`](#radio)
-        -   [`Switch`](#switch)
-        -   [`FormItemLabel`](#formitemlabel)
+        -   [`Slider`](#slider)
+        -   [`SelectField`](#selectfield)
         -   [`DatePicker`](#datepicker)
         -   [`TimePicker`](#timepicker)
-        -   [`DateTimePicker`](#datetimepicker)
+        -   [`Checkbox` `Radio` `Switch` `SelectionControl`](#checkbox-radio-switch-selectioncontrol)
+        -   [`SelectionControlGroup`](#selectioncontrolgroup)
 -   [FAQ](#faq)
     -   [`给组件设置的 onChange、onFocus 等方法无效、不执行`](#给组件设置的-onchangeonfocus-等方法无效不执行)
-    -   [`为什么有些搭配某些组件时必须给 FormItem 传递 component 参数呢？`](#为什么有些搭配某些组件时必须给-formitem-传递-component-参数呢)
 
 <!-- vim-markdown-toc -->
 
