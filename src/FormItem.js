@@ -22,7 +22,6 @@ const _Switch = isUglify ? Switch : 'Switch';
 const _Radio = isUglify ? Radio : 'Radio';
 const _Checkbox = isUglify ? Checkbox : 'Checkbox';
 const _TextField = isUglify ? TextField : 'TextField';
-
 const _SelectionControlGroup = isUglify ? SelectionControlGroup : 'SelectionControlGroup';
 const _SelectionControl = isUglify ? SelectionControl : 'SelectionControl';
 
