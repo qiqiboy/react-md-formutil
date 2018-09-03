@@ -1,6 +1,6 @@
 {
   "name": "react-md-formutil",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Happy to use react-formutil in the project based on react-bootstrap ^_^",
   "main": "lib/index.js",
   "directories": {

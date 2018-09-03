@@ -60,6 +60,7 @@ class _FormGroup extends Component {
                 break;
 
             case _SelectionControlGroup:
+                fieldProps.__TYPE__ = 'array';
                 injectError = false;
                 break;
 
