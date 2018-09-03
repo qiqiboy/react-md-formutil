@@ -6,36 +6,36 @@ Happy to use react-formutil in the project based on `react-md` ^\_^
 
 在 [react-md](https://github.com/mui-org/react-md) 项目，结合[react-formutil](https://github.com/qiqiboy/react-formutil) 来快速构建表单。
 
-> **如果你在使用其他react-组件库，可以查阅：**
-> - ant-design [`react-antd-formutil`](https://github.com/qiqiboy/react-antd-formutil) [![npm](https://img.shields.io/npm/v/react-antd-formutil.svg?style=flat)](https://npm.im/react-antd-formutil)
-> -  Material-UI [`react-material-formutil`](https://github.com/qiqiboy/react-material-formutil) [![npm](https://img.shields.io/npm/v/react-material-formutil.svg?style=flat)](https://npm.im/react-material-formutil)
-> -  react-bootstrap [`react-bootstrap-formutil`](https://github.com/qiqiboy/react-bootstrap-formutil) [![npm](https://img.shields.io/npm/v/react-bootstrap-formutil.svg?style=flat)](https://npm.im/react-bootstrap-formutil)
-
+> **如果你在使用其他 react 组件库，可以查阅：**
+>
+> 1. ant-design [`react-antd-formutil`](https://github.com/qiqiboy/react-antd-formutil) [![npm](https://img.shields.io/npm/v/react-antd-formutil.svg?style=flat)](https://npm.im/react-antd-formutil)
+> 1. Material-UI [`react-material-formutil`](https://github.com/qiqiboy/react-material-formutil) [![npm](https://img.shields.io/npm/v/react-material-formutil.svg?style=flat)](https://npm.im/react-material-formutil)
+> 1. react-bootstrap [`react-bootstrap-formutil`](https://github.com/qiqiboy/react-bootstrap-formutil) [![npm](https://img.shields.io/npm/v/react-bootstrap-formutil.svg?style=flat)](https://npm.im/react-bootstrap-formutil)
 
 <!-- vim-markdown-toc GFM -->
 
--   [安装 Installation](#安装-installation)
--   [使用 Usage](#使用-usage)
-    -   [`<FormItem />`](#formitem-)
-        -   [`name`](#name)
-        -   [`$defaultValue`](#defaultvalue)
-        -   [`$validators`](#validators)
-        -   [`$parser`](#parser)
-        -   [`$formatter`](#formatter)
-        -   [`checked` `unchecked`](#checked-unchecked)
-        -   [`validMessage`](#validmessage)
-        -   [`valuePropName` `changePropName` `focusPropName` `blurPropName`](#valuepropname-changepropname-focuspropname-blurpropname)
-    -   [`支持的组件`](#支持的组件)
-        -   [`Autocomplete`](#autocomplete)
-        -   [`TextField`](#textfield)
-        -   [`Slider`](#slider)
-        -   [`SelectField`](#selectfield)
-        -   [`DatePicker`](#datepicker)
-        -   [`TimePicker`](#timepicker)
-        -   [`Checkbox` `Radio` `Switch` `SelectionControl`](#checkbox-radio-switch-selectioncontrol)
-        -   [`SelectionControlGroup`](#selectioncontrolgroup)
--   [FAQ](#faq)
-    -   [`给组件设置的 onChange、onFocus 等方法无效、不执行`](#给组件设置的-onchangeonfocus-等方法无效不执行)
+- [安装 Installation](#安装-installation)
+- [使用 Usage](#使用-usage)
+    + [`<FormItem />`](#formitem-)
+        * [`name`](#name)
+        * [`$defaultValue`](#defaultvalue)
+        * [`$validators`](#validators)
+        * [`$parser`](#parser)
+        * [`$formatter`](#formatter)
+        * [`checked` `unchecked`](#checked-unchecked)
+        * [`validMessage`](#validmessage)
+        * [`valuePropName` `changePropName` `focusPropName` `blurPropName`](#valuepropname-changepropname-focuspropname-blurpropname)
+    + [`支持的组件`](#支持的组件)
+        * [`Autocomplete`](#autocomplete)
+        * [`TextField`](#textfield)
+        * [`Slider`](#slider)
+        * [`SelectField`](#selectfield)
+        * [`DatePicker`](#datepicker)
+        * [`TimePicker`](#timepicker)
+        * [`Checkbox` `Radio` `Switch` `SelectionControl`](#checkbox-radio-switch-selectioncontrol)
+        * [`SelectionControlGroup`](#selectioncontrolgroup)
+- [FAQ](#faq)
+    + [`给组件设置的 onChange、onFocus 等方法无效、不执行`](#给组件设置的-onchangeonfocus-等方法无效不执行)
 
 <!-- vim-markdown-toc -->
 
@@ -54,7 +54,7 @@ yarn install react-md-formutil
 > `react-md-formutil` 整合了 `react-formutil` 的组件，所以可以直接从`react-md-formutil`中导出所需要的 `react-formutil` 组件。不用单独从 `react-formutil` 中导出。
 
 先看一个使用示例（点击查看在线完整示例 :
-[react-md-formutil on codesandbox.io](https://codesandbox.io/s/n524m5040p)）：
+[react-md-formutil on codesandbox.io](https://codesandbox.io/s/8lr059q8ll)）：
 
 ```javascript
 import React, { Component } from 'react';
